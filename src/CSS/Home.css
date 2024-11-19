@@ -1,0 +1,124 @@
+/* Global Styling */
+.body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../../public/images/bg1.jpg');
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image in place while scrolling */
+    height: 100vh; /* Ensures the body covers the entire viewport */
+  }
+  
+  
+  /* Hero Section */
+  .hero-section {
+    background-image: url('../../public/images/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    color: #356c8c;
+    font-style: oblique;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2rem;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-outline {
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+  
+  .btn-outline:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Features Section */
+  .features-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #5e949c;
+    border: 0px solid black;
+    border-radius: 2rem;
+  }
+  
+  .features-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: whitesmoke;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .feature {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .feature:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
